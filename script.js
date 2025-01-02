@@ -1,7 +1,7 @@
 const inventoryContainer = document.getElementById('inventory-container');
 const form = document.getElementById('add-item-form');
 
-const API_URL = 'http://djmorgan27.github.io/freezer-inventory/api/inventory';
+const API_URL = 'https://djmorgan27.github.io/freezer-inventory/api/inventory';
 let inventory = []; // Declare at the top of the script
 
 // Fetch and display inventory
