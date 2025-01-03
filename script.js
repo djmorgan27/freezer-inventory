@@ -1,7 +1,7 @@
 const inventoryContainer = document.getElementById('inventory-container');
 const form = document.getElementById('add-item-form');
 
-const API_URL = 'http://localhost:3000/api/inventory';
+const API_URL = 'https://freezer-inventory.onrender.com';
 let inventory = []; // Declare at the top of the script
 
 // Fetch and display inventory
